@@ -1,0 +1,151 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: rgb(0,0,0);
+    background: linear-gradient(179deg, rgba(0,0,0,1) 0%, rgba(44,79,43,1) 50%, rgba(0,0,0,1) 100%);
+}
+
+header {
+    display: flex;
+    background-color: #5da45c;
+    justify-content: center;
+    box-shadow: 0px 2px 8px 6px #5da45c;
+}
+
+article {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    margin: 200px 0px;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    margin-right: 100px;
+
+}
+
+.logo>img {
+    width: 120px;
+    height: 70px;
+    margin: 0px;
+}
+
+.menu {
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    font-weight: 7000px;
+    font-size: 25px;
+}
+
+.area {
+    display: flex;
+    align-items: center;
+    margin: 200px 0px;
+}
+
+.texto {
+    width: 310px;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.3);
+    margin: 0px 100px;
+    color: #58ec57;
+    border-radius: 15% 0%;
+}
+.titulo {
+    width: 700px;
+    text-align: center;
+    margin: 100px;
+    color: #58ec57;
+    font-size: 100px;
+}
+
+.about {
+    width: 280px;
+    text-align: justify;
+    margin: 15px;
+}
+
+.galeria, .pessoas {
+	display: flex;
+	justify-content: center;
+	max-width: 300px;
+}
+
+.galeria>img {
+    margin: 10px;
+    width: 500px;
+}
+
+.pessoas>div>img{
+    margin: 50px 10px;
+    width: 200px;
+}
+
+.galeria>img:hover {
+    margin: 20px;
+    width: 1000px;
+    height: auto;
+}
+
+img {
+    width: 500px;
+    height: 300px;
+    margin: 0px 150px;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    margin-left: 50px;
+}
+
+span{
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 20px;
+}
+
+footer {
+    height: 150px;
+    background-color: #5da45c;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 7000px;
+    font-size: 25px;
+    box-shadow: 0px -1px 8px 6px #5da45c;
+    color: white;
+}
+
+.creditos{
+    margin-left: 50px;
+    display:flex;
+    justify-content: flex-start;
+    font-size: 17px;
+}
+
+.parceiros{
+	margin-right: 20px;
+	display: flex;
+	flex-direction: row;
+}
+
+.parceiros > img {
+	margin: 0px;
+    padding-left: 20px;
+	max-width: 100px;
+	max-height: 100px;
+}
+
+
